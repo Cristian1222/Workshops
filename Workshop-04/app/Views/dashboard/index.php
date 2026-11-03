@@ -1,0 +1,1 @@
+<div class="card"><div class="card-header"><h4>Dashboard</h4></div><div class="card-body text-center"><h2>Welcome to My Website</h2><p>Has iniciado sesión como <strong><?=e($_SESSION['username']??'')?></strong>.</p><a class="btn btn-primary" href="index.php?route=profile">Mi perfil</a> <a class="btn btn-success" href="index.php?route=courses">Administrar cursos</a></div></div>
